@@ -20,6 +20,7 @@ namespace Vendas.Models
         public DbSet<Vendas.Models.TipoDePagamento> TipoDePagamento { get; set; }
         public DbSet<Vendas.Models.Item> Item { get; set; }
         public DbSet<Vendas.Models.Marca> Marca { get; set; }
+        public DbSet<Vendas.Models.Pagamento> Pagamento { get; set; }
 
 
 
